@@ -1,6 +1,8 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  ENV['FACEBOOK_APP_ID'] = "1209221202507045" 
+  ENV['FACEBOOK_APP_SECRET'] = "bda1bbe7f56dbdeaa8f740a324f65f42"
   # Code is not reloaded between requests.
   config.cache_classes = true
 
